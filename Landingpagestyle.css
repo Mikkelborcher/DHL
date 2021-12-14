@@ -35,3 +35,23 @@ button {
   font-weight: bold;
   border-radius: 4px;
 }
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #fecc2f;
+  border-radius: 50%;
+}
+
+.opacity {
+  opacity: 30%;
+}
