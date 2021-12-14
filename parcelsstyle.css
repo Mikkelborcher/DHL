@@ -1,0 +1,54 @@
+body {
+  margin: 0%;
+  background-color: #f2f2f2;
+}
+p {
+  margin: 0%;
+}
+
+header {
+  background-color: #ffcc00;
+  display: flex;
+  justify-content: space-between;
+}
+
+.burger {
+  margin-top: 1.5em;
+  margin-left: 1em;
+}
+
+.burger__unit {
+  height: 7px;
+  width: 30px;
+  background-color: #d40511;
+  border-radius: 20%;
+  margin: 2px;
+}
+
+h1 {
+  color: white;
+}
+
+.dhlheaderlogo {
+  max-width: 100%;
+  height: 100%;
+  margin-top: 2em;
+}
+
+.redbox {
+  color: white;
+  background-color: #d40511;
+  height: 48px;
+  width: 172px;
+  text-align: center;
+  border: 1px #d40511;
+}
+
+.whitebox {
+  color: #d40511;
+  background-color: white;
+  height: 48px;
+  width: 172px;
+  text-align: center;
+  border: 1px #d40511;
+}
