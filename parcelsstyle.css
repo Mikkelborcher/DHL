@@ -41,7 +41,7 @@ h1 {
   height: 48px;
   width: 172px;
   text-align: center;
-  border: 1px #d40511;
+  border: 1px solid #d40511;
 }
 
 .whitebox {
@@ -50,5 +50,11 @@ h1 {
   height: 48px;
   width: 172px;
   text-align: center;
-  border: 1px #d40511;
+  border: 1px solid #d40511;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
 }
