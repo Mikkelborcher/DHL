@@ -36,7 +36,7 @@ button {
   border-radius: 4px;
 }
 
-nav {
+.dot {
   display: flex;
   justify-content: space-evenly;
   width: 30%;
@@ -45,13 +45,17 @@ nav {
   margin-top: 10em;
 }
 
-.dot {
+.dot__pigment {
   height: 15px;
   width: 15px;
   background-color: #fecc2f;
   border-radius: 50%;
 }
 
-.opacity {
+.dot__pigment--opacity {
   opacity: 30%;
+  height: 15px;
+  width: 15px;
+  background-color: #fecc2f;
+  border-radius: 50%;
 }
