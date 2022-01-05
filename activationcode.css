@@ -21,9 +21,11 @@ body {
     margin-top: 3em;
 }
 
-p {
+.main__text {
     margin-top: 5em;
-    font-size: 20px;
+    font-size: 18px;
+    margin-top:4em;
+    margin-bottom: 0%;
 }
 
 form {
@@ -32,6 +34,17 @@ form {
     margin-bottom: 1em;
     width: 317px;
     height: 48px;
+}
+
+input[type=text] {
+    width: 317px;
+    height: 48px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #D40511;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
 button {
@@ -49,13 +62,36 @@ button {
     margin-right: auto;
 }
 
-input[type=text] {
-    width: 317px;
-    height: 48px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #D40511;
-    box-sizing: border-box;
-    border-radius: 4px;
+.footer__text {
+    margin-top: 2em;
+    font-size: 18px;
 }
+
+.dot {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7em;
+  }
+  
+  .dot__pigment {
+    height: 15px;
+    width: 15px;
+    background-color: #fecc2f;
+    border-radius: 50%;
+  }
+  
+  .dot__pigment--opacity {
+    opacity: 30%;
+    height: 15px;
+    width: 15px;
+    background-color: #fecc2f;
+    border-radius: 50%;
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
+  }
