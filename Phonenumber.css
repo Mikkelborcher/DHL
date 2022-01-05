@@ -70,16 +70,32 @@ button {
 
 .accept__checkbox {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 130px 1fr;
+  margin-top: 1em;
 }
 
 .accept__checkbox--edit{
-
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 5em;
 }
 
-input[type=checkbox] {
-  display: block;
-  border: 1px solid green;
+.accept__checkbox--position {
+  position: absolute;
+}
+
+.accept__terms {
+  grid-column: 2;
+}
+
+.accept__text {
+  margin-top: 1em;
+}
+
+.accept__read {
+  grid-column: 2;
 }
 
 .dot {
@@ -104,4 +120,13 @@ input[type=checkbox] {
   width: 15px;
   background-color: #fecc2f;
   border-radius: 50%;
+}
+
+p {
+  font-size: 18px;
+}
+
+u {
+  color: black;
+  font-size: 18px;
 }
