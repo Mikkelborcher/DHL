@@ -59,3 +59,7 @@ button {
   background-color: #fecc2f;
   border-radius: 50%;
 }
+
+a {
+  text-decoration: none;
+}
