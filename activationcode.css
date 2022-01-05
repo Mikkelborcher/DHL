@@ -1,0 +1,42 @@
+body {
+    margin: 0%;
+    background-color: #f2f2f2;
+}
+
+.header__backarrow {
+    margin: 1em;
+}
+
+.header__headline {
+    text-align: center;
+    margin: 0%;
+}
+
+.header__letterman {
+    max-width: 80%;
+    align-content: center;
+}
+
+button {
+    display: block;
+    color: white;
+    background-color: #d40511;
+    border: none;
+    width: 317px;
+    height: 48px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+input[type=text] {
+    width: 317px;
+    height: 48px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #D40511;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
