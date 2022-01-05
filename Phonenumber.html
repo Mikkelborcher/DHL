@@ -16,33 +16,34 @@
     </header>
     <main class="main">
         <section class="main__text">
-            <p class="main__text">In order for me to find your parcel,</p>
-            <p class="main__text">i will need your phone number</p>
+            <p class="center">In order for me to find your parcel,
+            <p class="center">i will need your phone number</p>
         </section>
-        <div class=phonenumber>
-            <img src="Images/denmark.png" alt="danish flag" class="phonenumber__flag">
-            <p class="phonenumber__country">+45</p>
-            <p class="phonenumber__number">Phone number</p>
-        </div>
-        <button class="sendbutton">
-            <p class="sendbutton__text">Send activation code</p>
-        </button>
+        <section class="main__form">
+            <form action="#" class="main__form--phonenumber">
+            <input type="number" placeholder="Phone number">
+            </form>
+        </section>
+        <button>Send activation code</button>
 
-        <div class="accept">
-            <p class="accept__recive">You will recieve an activation code by text</p>
-            <img src="Images/checkbox.png" alt="rectangle to cross of terms and conditions" class="accept_rectangle">
-            <p class="accept__read">I've read and accept the
-            </p>
-            <nav class="accept__terms">
-                <a href="#" class="accept__terms--click">terms and conditions</a>
-            </nav>
-        </div>
-        <nav class="dot">
+        <footer class="accept">
+            <p class="center">You will recieve an activation code by text</p>
+            <section class="accept__checkbox">
+                <form action="#">
+                 <input type="checkbox">
+                </form>
+                <p class="accept__read">I've read and accept the</p>
+                <nav class="accept__terms">
+                    <a href="#" class="accept__terms--click">terms and conditions</a>
+                </nav>
+            </section>
+        </footer>
+        <section class="dot">
             <div class="dot__pigment--opacity"></div>
             <div class="dot__pigment"></div>
             <div class="dot__pigment--opacity"></div>
-        </nav>
-    
+        </section>
+    </footer>
     </main>
     
 </body>
